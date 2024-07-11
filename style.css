@@ -1,0 +1,368 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: #464545;
+}
+
+.first {
+    background:url("/images/bg.png");
+    background-size: cover;
+    height: 700px;
+}
+
+
+header {
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(244, 244, 244); */
+    /* position: fixed; */
+    background-size: cover;
+}
+
+.logo img {
+    height: 40px;
+
+}
+
+.container {
+    /* background-color: rgb(234, 239, 239); */
+    height: 70px;
+    padding-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    /* background-color: rgb(201, 244, 244); */
+    padding-top: 10px;
+    padding-left: 180px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3px;
+    margin-right: 12%;
+    margin-top: 7px;
+
+}
+
+.signin-btn {
+    background: rgb(255, 0, 0);
+    color: white;
+    padding: 8px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.signin-btn:hover {
+    background: rgb(172, 22, 22);
+}
+
+.dropdown {
+    margin-right: 10px;
+
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: none;
+    color: white;
+    padding: 8px 20px;
+    font-size: 16px;
+    border: solid white 2px;
+    border-radius: 5px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px;
+}
+
+.dropbtn img {
+    width: 10px;
+    filter: invert();
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background: none;
+    border: 5px solid white;
+}
+
+.text {
+    text-align: center;
+    padding-top: 12%;
+    color: white;
+}
+
+.text h1 {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.text p:nth-child(2) {
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.text p:nth-child(3) {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.email {
+    margin-top: 30px;
+
+}
+
+
+.email input {
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    border: solid 2px rgb(169, 167, 167);
+    background: rgba(0, 0, 0, 0.703);
+    /* opacity: .35; */
+}
+
+.email input::placeholder {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 200px;
+    color: rgb(169, 167, 167);
+}
+
+
+
+.email button {
+    width: 15%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size:x-large;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    gap: 5px;
+}
+
+.email button img{
+    cursor: pointer;
+    width: 25px;
+    filter: invert();
+    transform: rotate(-90deg);
+}
+
+
+.second{
+    margin-top: 10px;
+    height: 700px;
+    background-color: black;
+
+}
+
+.second .flex {
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.second .flex .row{
+    height: 90%;
+    width: 50%;
+    background-color: black;
+    margin-top: 100px;
+}
+
+.second .flex .row .text2{
+    margin-top: 200px;
+    margin-left: 160px;
+}
+
+.second .flex .row .text2 h1{
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #ddd;
+}
+
+.second .flex .row .text2 p{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ddd;
+}
+
+.second .flex .row .vid video{
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    right: 200px;
+    margin-top: 100px;
+    width: 32%;
+    height: 35%;
+    object-fit: cover;
+    z-index: 0;
+    
+}
+.second .flex .row .vid img{
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.third{
+    margin-top: 10px;
+    height: 700px;
+    background-color: black;
+
+}
+
+.third .flex {
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.third .flex .row{
+    height: 90%;
+    width: 50%;
+    background-color: black;
+    margin-top: 100px;
+}
+
+.third .flex .row .text3{
+    margin-top: 200px;
+    margin-right: 160px;
+}
+
+.third .flex .row .text3 h1{
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #ddd;
+}
+
+.third .flex .row .text3 p{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ddd;
+}
+
+.third .flex .row .vid2 img{
+    margin-left: 150px;
+}
+
+
+.fourth{
+    margin-top: 10px;
+    height: 700px;
+    background-color: black;
+
+}
+
+.fourth .flex {
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.fourth .flex .row{
+    height: 90%;
+    width: 50%;
+    background-color: black;
+    margin-top: 100px;
+}
+
+.fourth .flex .row .text4{
+    margin-top: 200px;
+    margin-left: 160px;
+}
+
+.fourth .flex .row .text4 h1{
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #ddd;
+}
+
+.fourth .flex .row .text4 p{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ddd;
+}
+
+
+.fourth .flex .row .vid3 video{
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    /* right: 200px;*/
+    margin-top: 30px;
+    margin-left: 7%;
+    width: 27%;
+    height: 35%; 
+    object-fit: cover;
+    z-index: 0;
+    
+}
+.fourth .flex .row .vid3 img{
+    position: absolute;
+    z-index: 1;
+    
+}
